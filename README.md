@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates core statistical analysis and data visualisation skills using Python. The aim is to clean datasets, handle missing values, calculate descriptive statistics, explore relationships between variables, and present findings through clear visualisations.
+This project compares three numerical datasets using Python-based exploratory data analysis and simple statistical modelling.
 
-The project is designed as part of my data science portfolio to show practical Python, statistics, and exploratory data analysis skills.
+The aim is to show how scatterplots, descriptive statistics, Pearson correlation, simple linear regression, and R-squared can be used together to understand relationships between variables. The project also highlights why visual inspection is important, because some datasets may show clear non-linear patterns that are not fully captured by correlation or a straight-line regression model.
 
 ## Tools Used
 
@@ -14,29 +14,55 @@ The project is designed as part of my data science portfolio to show practical P
 - Matplotlib
 - Jupyter Notebook
 
+## Repository Structure
+
+```text
+python-statistical-analysis/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── dataset1.csv
+│   ├── dataset2.csv
+│   └── dataset3.csv
+│
+├── notebooks/
+│   └── statistical_analysis.ipynb
+│
+└── outputs/
+    └── .gitkeep
+```
+
 ## Dataset
 
-This project uses small tabular datasets for practising statistical analysis and visualisation.
+This project uses three small numerical datasets. Each dataset contains two main variables: `x` and `y`.
 
 The analysis focuses on:
 
-- loading and inspecting datasets
+- inspecting each dataset
 - handling missing values
 - calculating descriptive statistics
 - calculating quartiles and interquartile range
-- analysing correlation between variables
-- creating scatterplots and boxplots
+- analysing Pearson correlation
+- fitting simple linear regression models
+- calculating R-squared values
+- comparing visual patterns across datasets
 
 ## What I Did
 
-- Loaded datasets into pandas DataFrames
-- Checked the structure and quality of the data
+- Loaded three datasets into pandas DataFrames
+- Checked the structure and quality of each dataset
 - Identified and handled missing values
-- Calculated mean, median, minimum, maximum, quartiles, and IQR
-- Calculated correlation between numerical variables
-- Created scatterplots to explore relationships between variables
-- Created boxplots to understand spread and outliers
-- Interpreted the results in a clear and beginner-friendly way
+- Calculated mean, median, range, sample variance, and sample standard deviation manually
+- Calculated quartiles, IQR, and possible outlier bounds
+- Created scatterplots to inspect the relationship between `x` and `y`
+- Created boxplots to compare spread and distribution
+- Calculated Pearson correlation manually
+- Fitted simple linear regression lines manually
+- Calculated R-squared values to assess model fit
+- Compared the three datasets to show why visualisation matters in statistical analysis
 
 ## Key Skills Demonstrated
 
@@ -44,19 +70,23 @@ The analysis focuses on:
 - Data cleaning
 - Exploratory data analysis
 - Descriptive statistics
-- Correlation analysis
+- Manual statistical calculations
+- Pearson correlation
+- Simple linear regression
+- R-squared interpretation
 - Data visualisation
-- Clear explanation of statistical results
+- Cross-dataset comparison
 
 ## Current Status
 
-This repository is being prepared as part of my data science portfolio. The initial repository structure is being created first, followed by a cleaned portfolio notebook and output visualisations.
+This repository currently includes the main portfolio notebook for a comparative statistical analysis project. The notebook compares three datasets using data cleaning, descriptive statistics, correlation analysis, simple linear regression, R-squared, scatterplots, and boxplots.
+
+Output images and README previews will be added next to make the project easier to review without opening the notebook.
 
 ## Future Improvements
 
-- Add cleaned statistical analysis notebook
-- Add visual output images
-- Add clearer explanation of each statistical method
-- Add more datasets for comparison
-- Add a short summary of key findings
+- Add output images for scatterplots and boxplots
+- Add a clearer visual comparison of all three datasets
+- Add a summary table of correlation and R-squared values
+- Add more explanation of non-linear relationships
 - Improve reproducibility with package version details
