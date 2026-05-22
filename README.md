@@ -127,9 +127,9 @@ Overall, this project shows that statistical measures such as correlation and R-
 
 ## Current Status
 
-This repository currently includes the main portfolio notebook for a comparative statistical analysis project. The notebook compares three datasets using data cleaning, descriptive statistics, correlation analysis, simple linear regression, R-squared, scatterplots, and boxplots.
+This repository currently includes the main portfolio notebook, project datasets, and output previews for the comparative statistical analysis project. The project demonstrates data cleaning, descriptive statistics, correlation analysis, simple linear regression, R-squared, scatterplots, and boxplots.
 
-Output images and README previews will be added next to make the project easier to review without opening the notebook.
+Further improvements will focus on adding more datasets, improving the explanation of non-linear relationships, and making the visual outputs more polished.
 
 ## Future Improvements
 
