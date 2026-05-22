@@ -64,6 +64,44 @@ The analysis focuses on:
 - Calculated R-squared values to assess model fit
 - Compared the three datasets to show why visualisation matters in statistical analysis
 
+## Project Outputs
+
+### Dataset 1: Scatterplot
+
+Dataset 1 shows a strong positive pattern. The relationship is clear, although it is not perfectly linear.
+
+![Dataset 1 scatterplot](outputs/dataset1_scatterplot.png)
+
+### Dataset 1: Boxplot
+
+The boxplot helps show the spread of values and possible outliers in Dataset 1.
+
+![Dataset 1 boxplot](outputs/dataset1_boxplot.png)
+
+### Dataset 2: Scatterplot
+
+Dataset 2 shows a circular or elliptical pattern. This is important because the Pearson correlation is very low even though the scatterplot shows a clear visual pattern.
+
+![Dataset 2 scatterplot](outputs/dataset2_scatterplot.png)
+
+### Dataset 2: Boxplot
+
+The boxplot helps summarise the spread of values in Dataset 2.
+
+![Dataset 2 boxplot](outputs/dataset2_boxplot.png)
+
+### Dataset 3: Scatterplot
+
+Dataset 3 shows a curved pattern. A straight-line regression model only captures part of the relationship.
+
+![Dataset 3 scatterplot](outputs/dataset3_scatterplot.png)
+
+### Dataset 3: Boxplot
+
+The boxplot helps show the spread and distribution of values in Dataset 3.
+
+![Dataset 3 boxplot](outputs/dataset3_boxplot.png)
+
 ## Key Skills Demonstrated
 
 - Python programming fundamentals
