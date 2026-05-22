@@ -102,6 +102,16 @@ The boxplot helps show the spread and distribution of values in Dataset 3.
 
 ![Dataset 3 boxplot](outputs/dataset3_boxplot.png)
 
+## Key Findings
+
+- Dataset 1 shows a strong positive relationship, with a high correlation and a relatively strong R-squared value.
+- Dataset 2 shows why visualisation matters: the scatterplot reveals a clear circular or elliptical pattern, but Pearson correlation is close to zero because the relationship is not linear.
+- Dataset 3 shows a curved relationship, meaning a straight-line regression model only explains part of the pattern.
+- Scatterplots are essential because summary statistics alone can hide important visual patterns.
+- Boxplots help compare spread, distribution, and possible outliers across datasets.
+
+Overall, this project shows that statistical measures such as correlation and R-squared should be interpreted alongside visualisations.
+
 ## Key Skills Demonstrated
 
 - Python programming fundamentals
